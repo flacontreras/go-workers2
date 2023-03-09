@@ -5,10 +5,11 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/digitalocean/go-workers2/storage"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/flacontreras/go-workers2/storage"
 )
 
 type HeartbeatInfo struct {
